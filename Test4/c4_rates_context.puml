@@ -1,0 +1,36 @@
+@startuml c4_rates_context
+!include <C4/C4_Context>
+LAYOUT_TOP_DOWN()
+skinparam defaultFontName "DejaVu Sans"
+skinparam wrapWidth 250
+AddElementTag("new", $bgColor="#2E7D32", $borderColor="#1B5E20", $legendText="новое / дорабатывается")
+AddRelTag("new", $textColor="#1B5E20", $lineColor="#2E7D32", $lineThickness=2, $legendText="новая связь")
+
+title Контекстная диаграмма (C4 Level 1): передача депозитных ставок в кол-центры
+
+Person(client, "Клиент", "В основном пожилые клиенты. Звонят уточнить ставки и условия открытия депозита")
+Person(depBO, "Менеджер бэк-офиса депозитов", "Ежедневно утверждает ставки в АБС")
+Person(ccOperator, "Оператор кол-центра банка", "Консультирует по актуальным ставкам")
+Person_Ext(pccOperator, "Оператор партнёрского кол-центра", "Консультирует по скриптам и файлу ставок")
+Person(bizRep, "Бизнес-представитель банка", "Готовит скрипты звонков для партнёра")
+
+System(abs, "АБС", "Источник истины по ставкам. Публикует утверждённые ставки через outbox")
+System(depositSys, "Система онлайн-открытия депозитов (MVP)", "Адаптер АБС и Kafka: топик deposit.rates. Новое: сервис выгрузки ставок для партнёров", $tags="new")
+System(cc, "Система кол-центра банка", "CRM-платформа подрядчика. Новое: модуль «Ставки по депозитам»", $tags="new")
+System(sftp, "SFTP-сервер банка", "Новое: каталог обмена файлами с партнёром", $tags="new")
+System_Ext(pcc, "Система партнёрского кол-центра", "Внешняя система. Принимает только файлы")
+
+Rel(depBO, abs, "Утверждает ставки")
+Rel(abs, depositSys, "Утверждённые ставки", "Outbox → адаптер АБС → Kafka")
+Rel(depositSys, cc, "Актуальные ставки", "Kafka, deposit.rates", $tags="new")
+Rel(depositSys, sftp, "Файл ставок: при изменении и ежедневно", "SFTP, CSV", $tags="new")
+Rel(pcc, sftp, "Забирает файл ставок", "SFTP, по ключу, IP-allowlist", $tags="new")
+
+Rel(client, ccOperator, "Звонит в банк")
+Rel(client, pccOperator, "Звонит (переадресация при перегрузке)")
+Rel(ccOperator, cc, "Смотрит ставки в карточке обращения")
+Rel(pccOperator, pcc, "Смотрит ставки из файла")
+Rel(bizRep, pccOperator, "Передаёт скрипты со ссылкой на файл ставок")
+
+SHOW_LEGEND()
+@enduml

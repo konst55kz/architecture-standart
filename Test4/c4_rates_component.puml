@@ -1,0 +1,47 @@
+@startuml c4_rates_component
+!include <C4/C4_Component>
+LAYOUT_TOP_DOWN()
+skinparam defaultFontName "DejaVu Sans"
+skinparam wrapWidth 230
+AddElementTag("new", $bgColor="#2E7D32", $fontColor="#FFFFFF", $borderColor="#1B5E20", $legendText="новый компонент")
+
+title Диаграмма компонентов (C4 Level 3): передача депозитных ставок в кол-центры
+
+ContainerQueue(kafka, "Kafka", "Топик deposit.rates", "Утверждённые ставки из АБС (публикует адаптер АБС, MVP)")
+
+Container_Boundary(ccB, "Система кол-центра банка — модуль «Ставки по депозитам» (Java 17, Spring Boot)") {
+  Component(ccListener, "Слушатель ставок", "Spring Kafka, consumer group cc-rates", "Читает deposit.rates, проверяет версию и дату вступления в силу, идемпотентно обновляет справочник", $tags="new")
+  ComponentDb(ccRepo, "Справочник ставок", "PostgreSQL (БД платформы КЦ)", "Текущие ставки и история версий", $tags="new")
+  Component(ccApi, "API ставок", "Spring Web, REST", "Отдаёт текущие ставки и время их актуальности", $tags="new")
+  Component(ccUi, "Виджет «Ставки по депозитам»", "React, компонент рабочего места оператора", "Таблица ставок с поиском, отметка «актуально на …», предупреждение об устаревших данных", $tags="new")
+}
+
+Container_Boundary(expB, "Сервис выгрузки ставок для партнёров (.NET 8) — в Системе онлайн-открытия депозитов") {
+  Component(expListener, "Слушатель ставок", "Confluent.Kafka, consumer group partner-export", "Читает deposit.rates, сохраняет снимок, запускает выгрузку", $tags="new")
+  ComponentDb(expDb, "Снимки и журнал выгрузок", "MS SQL", "Версии ставок, сформированные файлы, статусы выгрузок", $tags="new")
+  Component(scheduler, "Планировщик", "Hangfire / BackgroundService", "Ежедневная контрольная выгрузка до начала смены, повторы при ошибках", $tags="new")
+  Component(builder, "Формирователь файла", ".NET", "CSV UTF-8 по согласованному формату, файл контрольной суммы SHA-256", $tags="new")
+  Component(publisher, "Публикатор SFTP", "SSH.NET", "Атомарная загрузка (временное имя → переименование), файл latest", $tags="new")
+}
+
+System(sftp, "SFTP-сервер банка", "Каталог /partner-cc/rates, отдельная учётная запись партнёра")
+System_Ext(pcc, "Система партнёрского кол-центра", "Забирает файл по расписанию")
+Person(ccOperator, "Оператор КЦ банка")
+
+Rel(kafka, ccListener, "Событие «ставки обновлены»", "Kafka")
+Rel(ccListener, ccRepo, "Upsert версии ставок", "JDBC")
+Rel(ccApi, ccRepo, "Чтение", "JDBC")
+Rel(ccUi, ccApi, "GET /rates", "REST/HTTPS")
+Rel(ccOperator, ccUi, "Консультирует клиента")
+
+Rel(kafka, expListener, "Событие «ставки обновлены»", "Kafka")
+Rel(expListener, expDb, "Сохраняет снимок")
+Rel(expListener, builder, "Сформировать файл")
+Rel(scheduler, builder, "Ежедневная выгрузка")
+Rel(builder, expDb, "Читает снимок, пишет журнал")
+Rel(builder, publisher, "Файл + SHA-256")
+Rel(publisher, sftp, "Загрузка файла", "SFTP")
+Rel(pcc, sftp, "Скачивание файла", "SFTP")
+
+SHOW_LEGEND()
+@enduml

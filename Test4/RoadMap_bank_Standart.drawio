@@ -1,0 +1,543 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram id="roadmap" name="Roadmap">
+    <mxGraphModel dx="4304" dy="5200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="roadmap-1" parent="1" style="text;html=1;fontSize=28;fontStyle=1;align=left;verticalAlign=middle;" value="RoadMap: онлайн-открытие депозитов банка «Стандарт»" vertex="1">
+          <mxGeometry height="45" width="3600" x="80" y="-2200" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-2" parent="1" style="text;html=1;fontSize=15;align=left;verticalAlign=middle;fontColor=#555555;whiteSpace=wrap;" value="MVP на горизонте 6 месяцев с учётом передачи ставок в кол-центры и целевое решение на горизонте года. Коды задач — из списка задач по системам; Ц-n — задачи целевого решения. Шаг сетки — полмесяца." vertex="1">
+          <mxGeometry height="30" width="3820" x="80" y="-2155" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="MVP: онлайн-открытие депозитов и ставки для кол-центров (6 месяцев)" vertex="1">
+          <mxGeometry height="40" width="1800" x="300" y="-2110" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Целевое решение (горизонт 1 год)" vertex="1">
+          <mxGeometry height="40" width="1800" x="2100" y="-2110" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-5" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" value="Q1 2027" vertex="1">
+          <mxGeometry height="55" width="900" x="300" y="-2065" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-6" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" value="Q2 2027" vertex="1">
+          <mxGeometry height="55" width="900" x="1200" y="-2065" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-7" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" value="Q3 2027" vertex="1">
+          <mxGeometry height="55" width="900" x="2100" y="-2065" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-8" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" value="Q4 2027" vertex="1">
+          <mxGeometry height="55" width="900" x="3000" y="-2065" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" value="Январь" vertex="1">
+          <mxGeometry height="32" width="300" x="300" y="-2005" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" value="Февраль" vertex="1">
+          <mxGeometry height="32" width="300" x="600" y="-2005" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" value="Март" vertex="1">
+          <mxGeometry height="32" width="300" x="900" y="-2005" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" value="Апрель" vertex="1">
+          <mxGeometry height="32" width="300" x="1200" y="-2005" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" value="Май" vertex="1">
+          <mxGeometry height="32" width="300" x="1500" y="-2005" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" value="Июнь" vertex="1">
+          <mxGeometry height="32" width="300" x="1800" y="-2005" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" value="Июль" vertex="1">
+          <mxGeometry height="32" width="300" x="2100" y="-2005" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" value="Август" vertex="1">
+          <mxGeometry height="32" width="300" x="2400" y="-2005" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" value="Сентябрь" vertex="1">
+          <mxGeometry height="32" width="300" x="2700" y="-2005" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" value="Октябрь" vertex="1">
+          <mxGeometry height="32" width="300" x="3000" y="-2005" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" value="Ноябрь" vertex="1">
+          <mxGeometry height="32" width="300" x="3300" y="-2005" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" value="Декабрь" vertex="1">
+          <mxGeometry height="32" width="300" x="3600" y="-2005" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;fontSize=13;" value="Система / месяц" vertex="1">
+          <mxGeometry height="92" width="210" x="80" y="-2065" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-22" parent="1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="138" width="3600" x="300" y="-1960" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" value="АБС" vertex="1">
+          <mxGeometry height="138" width="210" x="80" y="-1960" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-24" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;ABS-1&lt;/b&gt; · Outbox-таблица событий" vertex="1">
+          <mxGeometry height="52" width="444" x="303" y="-1948" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-25" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;ABS-4&lt;/b&gt; · Процедуры регистрации заявок" vertex="1">
+          <mxGeometry height="52" width="594" x="303" y="-1886" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-26" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;ABS-2&lt;/b&gt; · Публикация ставок" vertex="1">
+          <mxGeometry height="52" width="294" x="753" y="-1948" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-27" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;ABS-5&lt;/b&gt; · Очередь заявок и экраны в клиенте АБС" vertex="1">
+          <mxGeometry height="52" width="594" x="903" y="-1886" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-28" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;ABS-3&lt;/b&gt; · Расчёт персональных ставок" vertex="1">
+          <mxGeometry height="52" width="444" x="1053" y="-1948" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-29" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;ABS-6&lt;/b&gt; · События по заявкам" vertex="1">
+          <mxGeometry height="52" width="144" x="1503" y="-1948" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-30" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;ABS-7&lt;/b&gt; · Нагрузочное тестирование АБС" vertex="1">
+          <mxGeometry height="52" width="294" x="1653" y="-1948" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-31" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="&lt;b&gt;Ц-1&lt;/b&gt; · Автоматическое одобрение заявок по базовой ставке" vertex="1">
+          <mxGeometry height="52" width="594" x="2253" y="-1948" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-32" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="&lt;b&gt;Ц-2&lt;/b&gt; · События и процедуры АБС для платежей и счетов" vertex="1">
+          <mxGeometry height="52" width="894" x="2703" y="-1886" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-33" parent="1" style="shape=rect;fillColor=#fffaeb;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="138" width="3600" x="300" y="-1814" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" value="Адаптер АБС" vertex="1">
+          <mxGeometry height="138" width="210" x="80" y="-1814" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-35" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;ADP-1&lt;/b&gt; · Каркас адаптера" vertex="1">
+          <mxGeometry height="52" width="294" x="603" y="-1802" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-36" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;ADP-2&lt;/b&gt; · Публикация событий из outbox в Kafka" vertex="1">
+          <mxGeometry height="52" width="444" x="1053" y="-1802" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-37" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;ADP-3&lt;/b&gt; · Передача заявок в АБС" vertex="1">
+          <mxGeometry height="52" width="444" x="1203" y="-1740" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-38" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="&lt;b&gt;Ц-3&lt;/b&gt; · Развитие адаптера в сервис интеграции АБС для всех продуктов" vertex="1">
+          <mxGeometry height="52" width="1194" x="2403" y="-1802" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-39" parent="1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="138" width="3600" x="300" y="-1668" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" value="Kafka" vertex="1">
+          <mxGeometry height="138" width="210" x="80" y="-1668" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-41" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;KFK-1&lt;/b&gt; · Развёртывание кластеров Kafka" vertex="1">
+          <mxGeometry height="52" width="444" x="303" y="-1656" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-42" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;KFK-2&lt;/b&gt; · Топики и схемы событий" vertex="1">
+          <mxGeometry height="52" width="294" x="603" y="-1594" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-43" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="&lt;b&gt;Ц-4&lt;/b&gt; · Schema Registry, стандарты событий, мониторинг" vertex="1">
+          <mxGeometry height="52" width="594" x="2103" y="-1656" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-44" parent="1" style="shape=rect;fillColor=#fffaeb;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="138" width="3600" x="300" y="-1522" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" value="Сервис депозитных заявок" vertex="1">
+          <mxGeometry height="138" width="210" x="80" y="-1522" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-46" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;DEP-6&lt;/b&gt; · Спецификация API (OpenAPI)" vertex="1">
+          <mxGeometry height="52" width="294" x="303" y="-1510" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-47" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;DEP-1&lt;/b&gt; · Каркас сервиса и БД" vertex="1">
+          <mxGeometry height="52" width="294" x="603" y="-1510" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-48" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;DEP-2&lt;/b&gt; · Каталог депозитов и ставок" vertex="1">
+          <mxGeometry height="52" width="294" x="903" y="-1510" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-49" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;DEP-3&lt;/b&gt; · Приём заявок" vertex="1">
+          <mxGeometry height="52" width="444" x="903" y="-1448" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-50" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;DEP-4&lt;/b&gt; · Подтверждение СМС-кодом" vertex="1">
+          <mxGeometry height="52" width="144" x="1353" y="-1510" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-51" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;DEP-5&lt;/b&gt; · Статусы заявок" vertex="1">
+          <mxGeometry height="52" width="144" x="1503" y="-1510" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-52" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="&lt;b&gt;Ц-5&lt;/b&gt; · Расчёт персональных ставок онлайн" vertex="1">
+          <mxGeometry height="52" width="594" x="2703" y="-1510" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-53" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="&lt;b&gt;Ц-6&lt;/b&gt; · Подключение новых продуктов" vertex="1">
+          <mxGeometry height="52" width="594" x="3303" y="-1510" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-54" parent="1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="76" width="3600" x="300" y="-1376" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" value="Сервис уведомлений" vertex="1">
+          <mxGeometry height="76" width="210" x="80" y="-1376" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-56" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;NTF-1&lt;/b&gt; · Каркас и интеграция со шлюзом" vertex="1">
+          <mxGeometry height="52" width="294" x="753" y="-1364" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-57" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;NTF-2&lt;/b&gt; · СМС-коды подтверждения" vertex="1">
+          <mxGeometry height="52" width="294" x="1053" y="-1364" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-58" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;NTF-3&lt;/b&gt; · СМС-уведомления по событиям" vertex="1">
+          <mxGeometry height="52" width="144" x="1503" y="-1364" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-59" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="&lt;b&gt;Ц-7&lt;/b&gt; · Push- и e-mail-уведомления" vertex="1">
+          <mxGeometry height="52" width="594" x="2403" y="-1364" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-60" parent="1" style="shape=rect;fillColor=#fffaeb;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="76" width="3600" x="300" y="-1292" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" value="СМС-шлюз" vertex="1">
+          <mxGeometry height="76" width="210" x="80" y="-1292" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-62" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;SMS-1&lt;/b&gt; · Подключение к СМС-шлюзу" vertex="1">
+          <mxGeometry height="52" width="444" x="303" y="-1280" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-63" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="&lt;b&gt;Ц-8&lt;/b&gt; · Резервный СМС-провайдер" vertex="1">
+          <mxGeometry height="52" width="444" x="2703" y="-1280" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-64" parent="1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="138" width="3600" x="300" y="-1208" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" value="Интернет-банк" vertex="1">
+          <mxGeometry height="138" width="210" x="80" y="-1208" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-66" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;IB-1&lt;/b&gt; · Раздел «Депозиты» по дизайн-системе" vertex="1">
+          <mxGeometry height="52" width="744" x="603" y="-1196" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-67" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;IB-2&lt;/b&gt; · Интеграция с сервисом заявок" vertex="1">
+          <mxGeometry height="52" width="444" x="1353" y="-1196" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-68" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="&lt;b&gt;Ц-9&lt;/b&gt; · Active-active в двух ЦОД" vertex="1">
+          <mxGeometry height="52" width="594" x="2103" y="-1196" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-69" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="&lt;b&gt;Ц-10&lt;/b&gt; · Платежи через интеграционный слой, отказ от прямого доступа к БД АБС" vertex="1">
+          <mxGeometry height="52" width="894" x="2703" y="-1196" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-70" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="&lt;b&gt;Ц-11&lt;/b&gt; · Вынос функций из монолита в микросервисы" vertex="1">
+          <mxGeometry height="52" width="894" x="3003" y="-1134" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-71" parent="1" style="shape=rect;fillColor=#fffaeb;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="138" width="3600" x="300" y="-1062" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" value="Сайт" vertex="1">
+          <mxGeometry height="138" width="210" x="80" y="-1062" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-73" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;WEB-1&lt;/b&gt; · Каталог депозитов" vertex="1">
+          <mxGeometry height="52" width="294" x="1203" y="-1050" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-74" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;WEB-2&lt;/b&gt; · Форма заявки нового клиента" vertex="1">
+          <mxGeometry height="52" width="294" x="1353" y="-988" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-75" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="&lt;b&gt;Ц-12&lt;/b&gt; · Онлайн-запись в отделение для идентификации" vertex="1">
+          <mxGeometry height="52" width="594" x="2403" y="-1050" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-76" parent="1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="138" width="3600" x="300" y="-916" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" value="Система КЦ банка" vertex="1">
+          <mxGeometry height="138" width="210" x="80" y="-916" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-78" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;CC-1&lt;/b&gt; · Приём заявок с сайта" vertex="1">
+          <mxGeometry height="52" width="294" x="1053" y="-904" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-79" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;CC-2&lt;/b&gt; · Результат звонка в Kafka" vertex="1">
+          <mxGeometry height="52" width="144" x="1353" y="-904" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-80" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;CC-3&lt;/b&gt; · Модуль «Ставки по депозитам»" vertex="1">
+          <mxGeometry height="52" width="294" x="1503" y="-904" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-81" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;CC-4&lt;/b&gt; · Виджет ставок для оператора" vertex="1">
+          <mxGeometry height="52" width="294" x="1653" y="-842" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-82" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="&lt;b&gt;Ц-13&lt;/b&gt; · Ставки в IVR" vertex="1">
+          <mxGeometry height="52" width="444" x="2553" y="-904" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-83" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="&lt;b&gt;Ц-14&lt;/b&gt; · CRM: единая карточка клиента для КЦ и отделений" vertex="1">
+          <mxGeometry height="52" width="1044" x="2703" y="-842" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-84" parent="1" style="shape=rect;fillColor=#fffaeb;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="76" width="3600" x="300" y="-770" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-85" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" value="Сервис выгрузки ставок" vertex="1">
+          <mxGeometry height="76" width="210" x="80" y="-770" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-86" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;EXP-1, EXP-2&lt;/b&gt; · Каркас сервиса, слушатель ставок и снимки" vertex="1">
+          <mxGeometry height="52" width="294" x="1203" y="-758" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-87" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;EXP-3…EXP-5&lt;/b&gt; · CSV и SHA-256, публикация на SFTP, ежедневная выгрузка" vertex="1">
+          <mxGeometry height="52" width="444" x="1503" y="-758" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-88" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="&lt;b&gt;Ц-15&lt;/b&gt; · Контроль скачивания, новые партнёры" vertex="1">
+          <mxGeometry height="52" width="444" x="2403" y="-758" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-89" parent="1" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="76" width="3600" x="300" y="-686" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" value="SFTP-сервер" vertex="1">
+          <mxGeometry height="76" width="210" x="80" y="-686" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-91" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;SFTP-1&lt;/b&gt; · Развёртывание SFTP в DMZ" vertex="1">
+          <mxGeometry height="52" width="294" x="903" y="-674" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-92" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;SFTP-2&lt;/b&gt; · Доступ партнёра" vertex="1">
+          <mxGeometry height="52" width="294" x="1203" y="-674" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-104" edge="1" parent="1" style="endArrow=none;html=1;dashed=1;strokeColor=#B20000;strokeWidth=2;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="-1968" as="sourcePoint" />
+            <mxPoint x="1500" y="-372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roadmap-105" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="1488" y="-430" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-106" parent="1" style="text;html=1;fontSize=12;fontStyle=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#B20000;" value="Ставки публикуются в Kafka" vertex="1">
+          <mxGeometry height="28" width="330" x="1516" y="-432" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-107" edge="1" parent="1" style="endArrow=none;html=1;dashed=1;strokeColor=#B20000;strokeWidth=2;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2100" y="-1968" as="sourcePoint" />
+            <mxPoint x="2100" y="-372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roadmap-108" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="2088" y="-396" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-109" parent="1" style="text;html=1;fontSize=12;fontStyle=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#B20000;" value="Запуск MVP; ставки у КЦ банка и партнёра → старт кампании" vertex="1">
+          <mxGeometry height="28" width="330" x="2116" y="-398" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-110" edge="1" parent="1" style="endArrow=none;html=1;dashed=1;strokeColor=#B20000;strokeWidth=2;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3900" y="-1968" as="sourcePoint" />
+            <mxPoint x="3900" y="-372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roadmap-111" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="3888" y="-430" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-112" parent="1" style="text;html=1;fontSize=12;fontStyle=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#B20000;" value="Целевое решение" vertex="1">
+          <mxGeometry height="28" width="330" x="3916" y="-368" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-113" parent="1" style="text;html=1;fontSize=16;fontStyle=1;align=left;" value="Легенда" vertex="1">
+          <mxGeometry height="30" width="200" x="80" y="-346" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-114" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="30" width="40" x="300" y="-346" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-115" parent="1" style="text;html=1;fontSize=13;align=left;verticalAlign=middle;whiteSpace=wrap;" value="Задачи MVP (ADR-1)" vertex="1">
+          <mxGeometry height="30" width="540" x="350" y="-346" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-116" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="30" width="40" x="900" y="-346" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-117" parent="1" style="text;html=1;fontSize=13;align=left;verticalAlign=middle;whiteSpace=wrap;" value="Изменения нового кейса: ставки для КЦ банка и партнёра (ADR-2)" vertex="1">
+          <mxGeometry height="30" width="540" x="950" y="-346" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-118" parent="1" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" value="" vertex="1">
+          <mxGeometry height="30" width="40" x="1500" y="-346" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-119" parent="1" style="text;html=1;fontSize=13;align=left;verticalAlign=middle;whiteSpace=wrap;" value="Целевое решение (горизонт 1 год)" vertex="1">
+          <mxGeometry height="30" width="540" x="1550" y="-346" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-120" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="2108" y="-343" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmap-121" parent="1" style="text;html=1;fontSize=13;align=left;verticalAlign=middle;whiteSpace=wrap;" value="Веха" vertex="1">
+          <mxGeometry height="30" width="540" x="2150" y="-346" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="roadmapchange" name="Roadmap_change">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="4000" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="roadmapchange-1" value="RoadMap изменений: передача ставок в кол-центры" style="text;html=1;fontSize=28;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="0" y="-150" width="2520" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-2" value="Последовательность задач нового кейса (ADR-2) в рамках MVP и задачи MVP, от которых они зависят. Шаг сетки — полмесяца." style="text;html=1;fontSize=15;align=left;verticalAlign=middle;fontColor=#555555;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="0" y="-105" width="2740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-3" value="Изменения нового кейса: передача ставок в кол-центр банка и партнёрский кол-центр (в рамках MVP)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-60" width="2520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-4" value="Q1 2027" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-15" width="1260" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-5" value="Q2 2027" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="-15" width="1260" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-6" value="Январь" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="220" y="45" width="420" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-7" value="Февраль" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="640" y="45" width="420" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-8" value="Март" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="45" width="420" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-9" value="Апрель" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="45" width="420" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-10" value="Май" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="45" width="420" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-11" value="Июнь" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBBBBB;fontSize=13;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="45" width="420" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-12" value="Система / месяц" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="0" y="-15" width="210" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-13" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="90" width="2520" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-14" value="АБС / Адаптер АБС" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="90" width="210" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-15" value="&lt;b&gt;ABS-1&lt;/b&gt; · Outbox-таблица событий" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="223" y="102" width="624" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-16" value="&lt;b&gt;ADP-1&lt;/b&gt; · Каркас адаптера" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="643" y="164" width="414" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-17" value="&lt;b&gt;ABS-2&lt;/b&gt; · Публикация ставок" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="853" y="102" width="414" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-18" value="&lt;b&gt;ADP-2&lt;/b&gt; · Публикация ставок в deposit.rates" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1273" y="102" width="624" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-19" value="" style="shape=rect;fillColor=#fffaeb;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="236" width="2520" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-20" value="Kafka" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="236" width="210" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-21" value="&lt;b&gt;KFK-1&lt;/b&gt; · Развёртывание Kafka" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="223" y="248" width="624" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-22" value="&lt;b&gt;KFK-2&lt;/b&gt; · Топик deposit.rates, схема" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="643" y="310" width="414" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-23" value="Consumer groups cc-rates, partner-export" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1483" y="248" width="204" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-24" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="382" width="2520" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-25" value="Система КЦ банка" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="382" width="210" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-26" value="&lt;b&gt;CC-3&lt;/b&gt; · Модуль «Ставки по депозитам»: слушатель, справочник, API" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1903" y="394" width="414" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-27" value="&lt;b&gt;CC-4&lt;/b&gt; · Виджет ставок для оператора" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2113" y="456" width="414" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-28" value="Обучение операторов" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2533" y="394" width="204" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-29" value="" style="shape=rect;fillColor=#fffaeb;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="528" width="2520" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-30" value="Сервис выгрузки ставок" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="528" width="210" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-31" value="&lt;b&gt;EXP-1&lt;/b&gt; · Каркас сервиса и БД" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1483" y="540" width="204" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-32" value="&lt;b&gt;EXP-2&lt;/b&gt; · Слушатель ставок, снимки" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1693" y="540" width="204" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-33" value="&lt;b&gt;EXP-3&lt;/b&gt; · Формирование CSV и SHA-256" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1903" y="540" width="204" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-34" value="&lt;b&gt;EXP-4&lt;/b&gt; · Публикация на SFTP, журнал, повторы" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2113" y="540" width="204" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-35" value="&lt;b&gt;EXP-5&lt;/b&gt; · Ежедневная выгрузка" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2323" y="540" width="204" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-36" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="612" width="2520" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-37" value="SFTP-сервер" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="612" width="210" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-38" value="&lt;b&gt;SFTP-1&lt;/b&gt; · Развёртывание SFTP в DMZ" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1063" y="624" width="414" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-39" value="&lt;b&gt;SFTP-2&lt;/b&gt; · Учётная запись партнёра, ключ, IP-allowlist" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1483" y="624" width="204" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-40" value="" style="shape=rect;fillColor=#fffaeb;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="696" width="2520" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-41" value="Партнёрский КЦ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="696" width="210" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-42" value="Согласование формата файла и расписания" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1063" y="708" width="414" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-43" value="Настройка забора файла по SFTP" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1903" y="708" width="414" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-44" value="Тестовый обмен и приёмка" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2533" y="708" width="204" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-45" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="780" width="2520" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-46" value="Бизнес" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="780" width="210" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-47" value="Обновление скриптов звонков для партнёра" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2113" y="792" width="414" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-48" value="" style="endArrow=none;html=1;dashed=1;strokeColor=#B20000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1900" y="82" as="sourcePoint" />
+            <mxPoint x="1900" y="864" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roadmapchange-49" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1888" y="870" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-50" value="Ставки публикуются в Kafka" style="text;html=1;fontSize=12;fontStyle=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="1916" y="868" width="330" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-51" value="" style="endArrow=none;html=1;dashed=1;strokeColor=#B20000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2740" y="82" as="sourcePoint" />
+            <mxPoint x="2740" y="864" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roadmapchange-52" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2728" y="904" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-53" value="Оба КЦ получают ставки → старт кампании" style="text;html=1;fontSize=12;fontStyle=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="2756" y="902" width="330" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-54" value="Легенда" style="text;html=1;fontSize=16;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="0" y="954" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-55" value="" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="220" y="954" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-56" value="Задачи MVP, от которых зависят изменения" style="text;html=1;fontSize=13;align=left;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="954" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-57" value="" style="shape=rect;fontSize=13;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=4;spacingLeft=6;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="820" y="954" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-58" value="Изменения нового кейса (ADR-2)" style="text;html=1;fontSize=13;align=left;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="870" y="954" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-59" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1428" y="957" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="roadmapchange-60" value="Веха" style="text;html=1;fontSize=13;align=left;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="954" width="540" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
