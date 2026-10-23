@@ -1,0 +1,67 @@
+@startuml c4_container
+!include <C4/C4_Container>
+skinparam defaultFontName "DejaVu Sans"
+skinparam wrapWidth 240
+LAYOUT_TOP_DOWN()
+AddElementTag("new", $bgColor="#2E7D32", $borderColor="#1B5E20", $legendText="новый контейнер")
+
+title Диаграмма контейнеров (C4 Level 2): онлайн-открытие депозитов, MVP
+
+Person(newClient, "Новый клиент")
+Person(client, "Клиент интернет-банка")
+Person(ccOperator, "Оператор КЦ")
+Person(bankStaff, "Сотрудники банка", "Отделение, бэк-офис депозитов, бэк-офис кредитов (разные роли)")
+
+System_Boundary(siteB, "Сайт (доработка)") {
+  Container(siteFront, "Фронтенд сайта", "React.js", "Каталог депозитов, форма заявки с капчей")
+  Container(siteBack, "Бэкенд сайта", "PHP", "Проксирует запросы к API депозитов")
+}
+
+System_Boundary(ibB, "Интернет-банк (доработка командой банка)") {
+  Container(ib, "Интернет-банк", "ASP.NET MVC, .NET 4.5", "Новый раздел «Депозиты»: каталог, персональные ставки, заявка, ввод OTP, статус")
+}
+
+System_Boundary(newB, "Система онлайн-открытия депозитов (новая, 2 ЦОД)") {
+  Container(lb, "Балансировщик / API-шлюз", "Nginx, по паре в каждом ЦОД", "TLS-терминация, балансировка между экземплярами и ЦОД, rate limiting", $tags="new")
+  Container(depSvc, "Сервис депозитных заявок", ".NET 8, ASP.NET Core, ≥2 экземпляра в каждом ЦОД", "Каталог и кеш ставок, приём заявок, фиксация ставки, статусы, transactional outbox", $tags="new")
+  ContainerDb(depDb, "БД сервиса заявок", "MS SQL, Always On AG", "Заявки, статусы, реплика ставок и персональных предложений, outbox", $tags="new")
+  Container(notifSvc, "Сервис уведомлений", ".NET 8, ≥2 экземпляра в каждом ЦОД", "Генерация и проверка OTP, СМС-уведомления по событиям", $tags="new")
+  ContainerDb(notifDb, "БД уведомлений", "MS SQL, Always On AG", "Хеши OTP с TTL, журнал отправок", $tags="new")
+  ContainerQueue(kafka, "Kafka", "Кластер в каждом ЦОД + MirrorMaker 2, SASL_SSL, ACL", "deposit.applications, deposit.application-events, deposit.rates, deposit.personal-offers", $tags="new")
+  Container(absAdapter, "Адаптер АБС", "Java 17, Spring Boot", "Читает заявки из Kafka и передаёт в АБС с ограничением скорости; читает outbox АБС и публикует события", $tags="new")
+}
+
+System_Boundary(ccB, "Система кол-центра (доработка)") {
+  Container(ccApp, "Система кол-центра", "Java Spring Boot, React, PostgreSQL", "Новый модуль: Kafka-consumer заявок с сайта, публикация результата звонка")
+}
+
+System_Boundary(absB, "АБС (доработка)") {
+  Container(absClient, "Клиент АБС", "Delphi", "Экраны: справочник ставок, очередь заявок, согласование, открытие депозита")
+  ContainerDb(absDb, "БД АБС", "Oracle, PL/SQL", "Новое: справочник ставок, расчёт персональных ставок (batch), процедуры заявок, outbox-таблица, ролевое разграничение депозиты/кредиты")
+}
+
+System(smsGw, "СМС-шлюз", "IT банка")
+System_Ext(telecom, "Телеком-оператор")
+
+Rel(newClient, siteFront, "Ставки, заявка", "HTTPS")
+Rel(siteFront, siteBack, "API", "HTTPS")
+Rel(siteBack, lb, "GET ставки, POST заявка", "REST/HTTPS")
+Rel(client, ib, "Ставки, заявка, OTP", "HTTPS")
+Rel(ib, lb, "Ставки, заявки, OTP, статусы", "REST/HTTPS")
+Rel(lb, depSvc, "REST", "HTTPS")
+Rel(depSvc, depDb, "Чтение/запись", "TDS/TLS")
+Rel(depSvc, notifSvc, "Отправить / проверить OTP", "REST/mTLS")
+Rel(notifSvc, notifDb, "Чтение/запись", "TDS/TLS")
+Rel(depSvc, kafka, "Публикует заявки, читает ставки и события", "Kafka")
+Rel(notifSvc, kafka, "Читает события по заявкам", "Kafka")
+Rel(notifSvc, smsGw, "OTP и уведомления", "HTTPS")
+Rel(smsGw, telecom, "СМС")
+Rel(ccApp, kafka, "Читает заявки новых клиентов, публикует результат звонка", "Kafka")
+Rel(ccOperator, ccApp, "Обрабатывает заявку")
+Rel(absAdapter, kafka, "Читает заявки, публикует ставки и события", "Kafka")
+Rel(absAdapter, absDb, "Вызов PL/SQL-процедур, чтение outbox (пакетно, с лимитом)", "JDBC")
+Rel(bankStaff, absClient, "Работа со ставками и заявками")
+Rel(absClient, absDb, "Двухзвенка", "Oracle Net")
+
+SHOW_LEGEND()
+@enduml
